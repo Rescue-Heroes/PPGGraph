@@ -77,8 +77,5 @@ last_row = (len(datasets) * 2) + 1
 Button(window, text="Show", command=lambda: show_graphs(datasets)).grid(
     row=last_row, column=0, padx=10, pady=10
 )
-Button(window, text="Quit", command=window.quit).grid(
-    row=last_row, column=1, padx=10, pady=10
-)
 
 window.mainloop()
