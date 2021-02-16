@@ -9,5 +9,5 @@ This is a messy python script that will display a graph of telemetry captured fr
 > python -m pip install -r requirements.txt
 
 # Display graph of data
-> python graph.py [DATA_FILE]
+> python ppg.py
 ```
